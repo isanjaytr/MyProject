@@ -10,6 +10,7 @@ public static void main(String[] args) {
 	WebDriverManager.chromedriver().setup();
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://www.facebook.com/");
+	System.out.println("Hello Test");
 	
 	
 }
